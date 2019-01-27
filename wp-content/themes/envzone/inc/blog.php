@@ -82,16 +82,16 @@ get_header();
 
                 <div class="col-lg-6">
 
-                    <?php while (have_posts()): the_post();?>
+                    <?php for($i=1; $i<4; $i++):?>
                     <article class="highlight-news-right clearfix">
                         <a class="thumbnail-news" href="#">
                             <img class="img-fluid" src="<?php echo ASSET_URL;?>images/img-blog-the-innovative.png">
                         </a>
                         <div class="info-news">
-                            <a href="#" class="category">DEVOPS</a>
-                            <a href="">
+                            <a href="" class="category">DEVOPS</a>
+                            <a href="<?php echo $news_all[$i]->post_name;?>">
                                 <h2>
-                                    Lorem ipsum dolor sit amet.
+                                    <?php echo $news_all[$i]->post_title;?>
                                 </h2>
                             </a>
                             <div class="audit"><span>By:</span>
@@ -100,7 +100,7 @@ get_header();
                             </div>
                         </div>
                     </article>
-                    <?php endwhile;?>
+                    <?php endfor;?>
 
                 </div>
             </div>
