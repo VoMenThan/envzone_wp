@@ -42,8 +42,8 @@ get_header();
                         </div>
                         <div class="audit">
                             <span>By:</span>
-                            <a class="author" href="#"> <?php echo $post->post_author;?></a> <span>| ENVZONE Staff</span>
-                            <div class="date">PUBLISHED: <?php echo get_the_date( 'd-m-Y', $item->ID );?> | UPDATED: <?php echo $post->post_date;?></div>
+                            <a class="author" href="#"> <?php echo get_the_author_meta('display_name', $post->post_author);?></a> <span>| ENVZONE Staff</span>
+                            <div class="date">PUBLISHED: <?php echo get_the_date( 'M d,Y', $item->ID );?> | UPDATED: <?php echo get_the_date( 'M d,Y', $item->ID );?></div>
                         </div>
 
                         <div class="box-share">

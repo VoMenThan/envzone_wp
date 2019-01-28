@@ -49,7 +49,6 @@ get_header();
                         <span class="you-here">You are here:</span>
                         <ol class="breadcrumb">
                             <li class="breadcrumb-item"><a href="<?php echo get_home_url();?>">Home</a></li>
-                            <li class="breadcrumb-item"><a href="#">Discovery</a></li>
                             <li class="breadcrumb-item active" aria-current="page">Blog</li>
                         </ol>
                     </div>
@@ -61,19 +60,20 @@ get_header();
             <div class="row section-head-blog">
                 <div class="col-lg-6">
                     <article class="highlight-news">
+
                         <a href="#">
-                            <img class="img-fluid" src="<?php echo ASSET_URL;?>images/img-blog-the-innovative.png">
+                            <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($news_all[0]->ID);?>">
                         </a>
                         <div class="info-news">
-                            <a href="#" class="category">DEVOPS</a>
-                            <a href="<?php echo get_home_url().'/'.$news_all[0]->post_name;?>">
+                            <a href="#" class="category"><?php echo get_the_category($news_all[0]->ID)[0]->cat_name;?></a>
+                            <a href="<?php echo get_home_url().'/blog/'.$news_all[0]->post_name;?>">
                                 <h2>
                                     <?php echo $news_all[0]->post_title;?>
                                 </h2>
                             </a>
                             <div class="audit">
-                                <span>By:</span><a class="author" href="#"> Author</a>
-                                <div class="date-public">Updated Nov 29, 2018</div>
+                                <span>By:</span><a class="author" href="#"> Admin</a>
+                                <div class="date-public">Updated <?php echo get_the_date( 'M d, Y', $news_all[0]->ID );?></div>
                             </div>
                         </div>
 
@@ -85,18 +85,18 @@ get_header();
                     <?php for($i=1; $i<4; $i++):?>
                     <article class="highlight-news-right clearfix">
                         <a class="thumbnail-news" href="#">
-                            <img class="img-fluid" src="<?php echo ASSET_URL;?>images/img-blog-the-innovative.png">
+                            <img class="img-fluid" src="<?php echo get_the_post_thumbnail_url($news_all[$i]->ID);?>">
                         </a>
                         <div class="info-news">
-                            <a href="" class="category">DEVOPS</a>
-                            <a href="<?php echo $news_all[$i]->post_name;?>">
+                            <a href="" class="category"><?php echo get_the_category($news_all[$i]->ID)[0]->cat_name;?></a>
+                            <a href="<?php echo get_home_url().'/blog/'.$news_all[$i]->post_name;?>">
                                 <h2>
                                     <?php echo $news_all[$i]->post_title;?>
                                 </h2>
                             </a>
                             <div class="audit"><span>By:</span>
-                                <a class="author" href="#"> Author</a>
-                                <span class="date-public">Updated Nov 29, 2018</span>
+                                <a class="author" href="#"> Admin</a>
+                                <span class="date-public">Updated <?php echo get_the_date( 'M d, Y', $news_all[$i]->ID );?></span>
                             </div>
                         </div>
                     </article>

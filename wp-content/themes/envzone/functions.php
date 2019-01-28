@@ -81,7 +81,7 @@ function mt_env_register_style(){
 
 //add_filter('show_admin_bar', '__return_false');
 
-/*if( ! function_exists( 'uri_segment' ) ) {
+if( ! function_exists( 'uri_segment' ) ) {
     function uri_segment($n = 0){
         $protocol = stripos($_SERVER['SERVER_PROTOCOL'],'https') === true ? 'https://' : 'http://';
         $full_url = $protocol . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
@@ -91,6 +91,6 @@ function mt_env_register_style(){
         return empty( $segments ) ? '' : $segments[$n];
     }
 }
-add_theme_support( 'post-thumbnails' );*/
+add_theme_support( 'post-thumbnails' );
 
 ?>
