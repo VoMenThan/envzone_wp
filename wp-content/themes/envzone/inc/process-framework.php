@@ -43,20 +43,18 @@
                 <div class="col-12">
                     <h2 class="title-head-blue title-top">OUR DEVELOPMENT PROCESS</h2>
                 </div>
-
-                <div class="col-lg-4">
+                <div class="col-lg-4 order-lg-0 order-1 pb-3">
                     <p>
                         ENVZONE selected development teams to combine the power of Agile with Lean product development and system thinking. It synchronizes alignment, collaboration, and delivery for multiple Agile teams. As a result, it dramatically improves business agility by accelerating productivity, time-to-market, quality and engagement which impact our client’s outcomes directly.
                     </p>
                 </div>
-                <div class="col-lg-8">
+                <div class="col-lg-8 order-lg-1 order-0 pb-3">
                     <img src="<?php echo ASSET_URL;?>images/chart-our-development-process.png" alt="" class="img-fluid">
                 </div>
-                <div class="col-lg-12">
+                <div class="col-lg-12 order-2">
                     <a href="#" class="btn btn-blue-env">Implement This Process on My Project</a>
                 </div>
             </div>
-
 
             <div class="row">
                 <div class="col-12">
@@ -108,7 +106,7 @@
                         </p>
                     </article>
                 </div>
-                <div class="col-lg-12 text-right py-5">
+                <div class="col-lg-12 text-right py-lg-5">
                     <a href="#" class="btn btn-blue-env">Learn More about Discovery Stage</a>
                 </div>
             </div>
@@ -165,7 +163,7 @@
                         </p>
                     </article>
                 </div>
-                <div class="col-lg-12 text-right py-5">
+                <div class="col-lg-12 text-right py-lg-5">
                     <a href="#" class="btn btn-blue-env">Learn More about Discovery Stage</a>
                 </div>
             </div>
@@ -214,7 +212,7 @@
                             </p>
                         </article>
                     </div>
-                    <div class="col-lg-12 text-right py-5">
+                    <div class="col-lg-12 text-right py-lg-5">
                         <a href="#" class="btn btn-blue-env">Get My Project Going</a>
                     </div>
                 </div>
@@ -222,99 +220,7 @@
             </div>
         </div>
 
-
-        <div class="box-why-business">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-lg-center text-left">
-                        <h2>
-                            WHY YOUR BUSINESS NEEDS ENVZONE
-                        </h2>
-                        <div class="description-business">
-                            EnvZone gives you tools and services to compete in modern business environments.
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 col-mbx-100 mb-lg-0 mb-3">
-                        <div class="item-reason">
-                            <i class="fa fa-check-circle"></i>
-                            <p>
-                                We have dedicated partners who make it their business to know your product and services 
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 col-mbx-100 mb-lg-0 mb-3">
-                        <div class="item-reason">
-                            <i class="fa fa-check-circle"></i>
-                            <p>
-                                Adjustment to your resources to provide your needs comes easily to us
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 col-mbx-100 mb-lg-0 mb-3">
-                        <div class="item-reason">
-                            <i class="fa fa-check-circle"></i>
-                            <p>
-
-                                We provide a trusted solution to manage overhead costs of handling your business
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 col-mbx-100 mb-lg-0 mb-3">
-                        <div class="item-reason">
-                            <i class="fa fa-check-circle"></i>
-                            <p>
-
-                                Our results are focused on your business goals and values.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-3">
-                        <div class="box-dedicated">
-                            <h4>Dedicated Teams</h4>
-                            <p>
-                                EnvZone will provide you with the opportunity of working with offshore teams dedicated to serving you.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-3">
-                        <div class="box-dedicated">
-                            <h4>Pool of Talent</h4>
-                            <p>
-                                We have a pool of partners who have the capability of working with an array of industries and build a team that is tailored to your business needs and has all the tools to give you results.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <a href="#" class="btn btn-white-env">SCHEDULE AN APPOINTMENT NOW <i class="icon-arrow-bottom"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- /*============SUBCRIBE HOME=================*/ -->
-        <div class="container-fluild section-parallax">
-            <div class="bg-green-home">
-                <div class="container content-subcribe">
-                    <div class="row">
-                        <div class="col-12 box-head-subcribe text-center">
-                            <h2>SUBSCRIBE FOR THREE THINGS</h2>
-                            <p>
-                                Three links or tips of interest curated about offshore outsourcing every week by the experts at ENVZONE Consulting.
-                            </p>
-                            <form action="" method="get">
-                                <input type="text" class="input-search d-block" placeholder="Enter your email adress">
-                                <input type="submit" hidden>
-                                <a class="btn btn-blue-env btn-search" href="#">SIGN ME UP FOR THREE THINGS</a>
-                            </form>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-
-        </div>
-        <!-- /*============END SUBCRIBE HOME=================*/ -->
+        <?php require_once "why-business.php";?>
+        <?php require_once "subscribe.php";?>
     </section>
 </main>

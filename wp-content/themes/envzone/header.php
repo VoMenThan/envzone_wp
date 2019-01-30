@@ -93,7 +93,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link item-menu" href="#">COMPANY
-                                    <span class="icon-arrow-right d-sm-none"></span>
+                                    <span class="icon-arrow-right"></span>
                                 </a>
 
                                 <!-- BOX SUBMENU -->
@@ -126,7 +126,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/about-us">
                                                                 About Us
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 Enzone is an outsouring company that provide software development and IT consulting services located in the US with over a hundred software developers located internationally
@@ -137,7 +137,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/partnership">
                                                                 Partnership
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 Our Channel Partner Program provides you with the opportunity to benefit from our pool of IT and software development expert partners
@@ -148,7 +148,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/process-framework">
                                                                 Process Framework
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We design special process to ensure that we provide quality services which are safety, skills, and authenticity.
@@ -159,7 +159,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/client-focus-solutions/">
                                                                 Client - Focus Solutions
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We have ample experience with hundreds of successful projects to our name, you have nothing to be scared of, and we are always on your team.
@@ -170,7 +170,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/careers">
                                                                 Careers
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 EnvZone is always seeking talented individuals who are looking for challenging projects. And we are interested in those individuals who can offer reliability, expertise, and versatility that will make them an asset to the company.
@@ -195,7 +195,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link item-menu" href="#">INDUSTRIES
-                                    <span href="#" class="icon-arrow-right d-sm-none"></span>
+                                    <span href="#" class="icon-arrow-right"></span>
                                 </a>
 
                                 <!-- BOX SUBMENU -->
@@ -230,7 +230,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/real-estate">
                                                                 Real Estate & Property
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We provide solutions leveraging on customer experience to help businesses in the hospitality industry meet and surpass their goals
@@ -242,7 +242,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/hospitality">
                                                                 Hospitality
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We provide solutions leveraging on customer experience to help businesses in the hospitality industry meet and surpass their goals
@@ -254,7 +254,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/education">
                                                                 Education
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We develop education softwares which include everything from student information systems to reference management software
@@ -265,7 +265,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/e-commerce-retail">
                                                                 E-Commerce & Retail
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We provide a staff of industry experts to help you boost your sales. Our easy-to-use solutions help you to extend the benefits from the online word
@@ -276,7 +276,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/financial-services">
                                                                 Financial  Services
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We have deep expertise in financial services and provide these services to keep your commercial businesses at the top of the game
@@ -287,7 +287,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/non-profit-organization">
                                                                 Non-profit Organization
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 Envzone provides top-of-the-line services for non-profit organization to help your orgranization become more effective and efficient
@@ -299,7 +299,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/healthcare">
                                                                 Healthcare
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We offer foremost help to healthcare industries in need of software developed for them to store, analyze and maintain data processed on a daily basis
@@ -311,7 +311,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/logistics">
                                                                 Logistics & Supply Chain
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 Envzone has the capability to provide viable logistic and supply chain solutions to deal with the challenges and help the right products reach the right customers.
@@ -329,7 +329,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link item-menu" href="#">SERVICES
-                                    <span href="#" class="icon-arrow-right d-sm-none"></span>
+                                    <span href="#" class="icon-arrow-right"></span>
                                 </a>
                                 <!-- BOX SUBMENU -->
                                 <div class="sub-menu text-left">
@@ -364,7 +364,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/full-cycle-development">
                                                                 Full Cycle Development
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We are seasoned experts in full cycle development, including: software prototyping, custom software development, product development.
@@ -375,7 +375,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/it-outsourcing">
                                                                 IT Outsourcing
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We provide services across almost all technology platforms, work on operating systems and infrastructures.
@@ -386,7 +386,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/testing">
                                                                 Testing
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 EnvZone helps provide top-notch technology consultants that are certified and capable of providing established and cutting edge technologies.
@@ -397,7 +397,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/client-center">
                                                                 Client Center
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 As soon as you become an Envzone client, you will get unlimited access to our client care representatives and our consultants as well.
@@ -408,7 +408,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/software-quality-assurance">
                                                                 Software Quality Assurance
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 The quality of your products are our concern, and we make sure that our experts adhere to your specifications and industry standards
@@ -419,7 +419,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/devops">
                                                                 DevOps
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 EnvZone provides maintenance and support services to increase productivity and quality of your service.
@@ -445,7 +445,7 @@
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link item-menu" href="#">DISCOVERY
-                                    <span href="#" class="icon-arrow-right d-sm-none"></span>
+                                    <span href="#" class="icon-arrow-right"></span>
                                 </a>
                                 <!-- BOX SUBMENU -->
                                 <div class="sub-menu text-left">
@@ -482,7 +482,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/blog">
                                                                 Blog
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 We create influencial blogs which provide fresh news and the most interesting events focus on technology and software development.
@@ -493,7 +493,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/events">
                                                                 Events
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 Looking for some IT & Technology events? Go to our Events section and discover full list of upcoming events.
@@ -504,7 +504,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/knowledge">
                                                                 Knowledge Center
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 Here you can find useful materials and information about IT outsourcing and other related resources.
@@ -515,7 +515,7 @@
                                                         <article>
                                                             <a class="title-submenu" href="<?php echo get_home_url();?>/studio">
                                                                 Studio
-                                                                <span class="icon-arrow-right d-sm-none"></span>
+                                                                <span class="icon-arrow-right"></span>
                                                             </a>
                                                             <p>
                                                                 Take a look around our studio to see the collection of our stories and activities

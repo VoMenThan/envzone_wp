@@ -252,7 +252,7 @@
             margin: 0,
             nav: false,
             dots: false,
-            autoplay: true,
+            autoplay: false,
             autoplayTimeout: 5000,
             smartSpeed:450,
             navText: ['<i class="btn-prev-slide"></i>', '<i class="btn-next-slide"></i>'],

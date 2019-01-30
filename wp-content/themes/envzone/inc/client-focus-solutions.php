@@ -42,10 +42,10 @@
             </div>
 
             <div class="row box-staff">
-                <div class="col-lg-6 order-lg-0 order-1 box-paragraph d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 order-lg-0 order-md-0 order-1 box-paragraph d-flex align-items-center">
                     <article class="paragraph">
                         <p>
-                            Under this arrangement, our clients will have the hands-on approach overseeing operations and all the work processes, manage all personnel working on the project, responsible for the provision of facilities and infrastructure.
+                            Here, the client assembles and maintains its team, comprising of highly skilled and specialized personnel. This is a preferred effective arrangement when as a client, you have found the perfect team and want to take advantage of their skills by deploying them for long-term or multiple projects.
                         </p>
                         <p>
                             And our partner, on the other hand, is responsible for the basics such as keeping track of leaves, schedules and paying the personnel under him or her. They will also create the teams and conduct product development.
@@ -56,21 +56,21 @@
                     </article>
 
                 </div>
-                <div class="col-lg-6 order-lg-1 order-0 box-img">
+                <div class="col-lg-6 col-md-6 order-lg-1 order-md-1 order-0 box-img">
                     <h3>Staff Augmentation </h3>
                     <img class="img-fluid" src="<?php echo ASSET_URL;?>images/img-staff-augmentation.png" alt="">
                 </div>
             </div>
 
             <div class="row box-staff">
-                <div class="col-lg-6 box-img">
+                <div class="col-lg-6 col-md-6 box-img">
                     <h3>Dedicated Team </h3>
                     <img class="img-fluid" src="<?php echo ASSET_URL;?>images/img-dedicated-team.png" alt="">
                 </div>
-                <div class="col-lg-6 box-paragraph d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 box-paragraph d-flex align-items-center">
                     <article class="paragraph">
                         <p>
-                            Here, the client assembles and maintains its team, comprising of highly skilled and specialized personnel. This is a preferred effective arrangement as a client, you have found the perfect team and want to take advantage of their skills by deploying them for long-term or multiple projects.
+                            Here, the client assembles and maintains its team, comprising of highly skilled and specialized personnel. This is a preferred effective arrangement when as a client, you have found the perfect team and want to take advantage of their skills by deploying them for long-term or multiple projects.
                         </p>
                         <p>
                             Our client might choose to get help in the daily management tasks, by hiring a project manager. EnvZone also provides flexibility in addition to the pool of clients we provide. Since unavailable members can be replaced immediately, we can minimize the project's disruption. The client receives updates and reports on the progress of the project and can offer suggestions when needed.
@@ -85,7 +85,7 @@
             </div>
 
             <div class="row box-staff">
-                <div class="col-lg-6 order-lg-0 order-1 box-paragraph d-flex align-items-center">
+                <div class="col-lg-6 col-md-6 order-lg-0 order-md-0 order-1 box-paragraph d-flex align-items-center">
                     <article class="paragraph">
                         <p>
                             This type of arrangement involves the least involvement by the client.
@@ -100,9 +100,8 @@
                             Contact EnvZone consultant <br> to learn more...
                         </a>
                     </article>
-
                 </div>
-                <div class="col-lg-6 order-lg-1 order-0 box-img">
+                <div class="col-lg-6 col-md-6 order-lg-1 order-md-1 order-0 box-img">
                     <h3>Project-based model </h3>
                     <img class="img-fluid" src="<?php echo ASSET_URL;?>images/img-project-based-model.png" alt="">
                 </div>

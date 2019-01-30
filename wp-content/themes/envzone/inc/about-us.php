@@ -21,11 +21,11 @@
                         <h1 class="title-head-blue">Business Oriented</h1>
                         <p>
                             <i class="fa fa-check-circle"></i>
-                            EnvZone has become a top provider of custom software development and IT consulting services located in the US with over a hundred IT and software developers located in Vietnam.
+                            Envzone has become a top provider of custom software development and IT consulting services located in the US with over a hundred IT and software developers located in Vietnam.
                         </p>
                         <p>
                             <i class="fa fa-check-circle"></i>
-                            We have been opportune to bring top-notch-custom-made solutions to businesses willing to leap into the digital world in different industries such as Healthcare, Retail, Financial Services, Telecom and so on.
+                            We have been opportune to bring top-notch custom made solutions to businesses willing to leap into the digital world in different industries such as Healthcare, Retail, Financial Services, Telecom and so on.
                         </p>
                         <p>
                             <i class="fa fa-check-circle"></i>
@@ -45,7 +45,7 @@
                     <div class="col-lg-6 description-different">
 
                         <p>
-                            With a wide range of professionals to choose from, ưwe offer affordable services which are critical to the growth of your business. Envzone looks forward to the opportunity to help you with your IT and software development needs.
+                            With a wide range of professionals to choose from, we offer affordable services which are critical to the growth of your business. Envzone looks forward to the opportunity to help you with your IT and software development needs.
                         </p>
                     </div>
                     <div class="col-lg-6 box-list-different">
@@ -94,75 +94,7 @@
             </div>
         </div>
 
-        <div class="box-why-business">
-            <div class="container">
-                <div class="row justify-content-center">
-                    <div class="col-12 text-lg-center text-left">
-                        <h2>
-                            WHY YOUR BUSINESS NEEDS ENVZONE
-                        </h2>
-                        <div class="description-business">
-                            EnvZone gives you tools and services to compete in modern business environments.
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 col-mbx-100 mb-lg-0 mb-3">
-                        <div class="item-reason">
-                            <i class="fa fa-check-circle"></i>
-                            <p>
-                                We have dedicated partners who make it their business to know your product and services 
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 col-mbx-100 mb-lg-0 mb-3">
-                        <div class="item-reason">
-                            <i class="fa fa-check-circle"></i>
-                            <p>
-                                Adjustment to your resources to provide your needs comes easily to us
-
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 col-mbx-100 mb-lg-0 mb-3">
-                        <div class="item-reason">
-                            <i class="fa fa-check-circle"></i>
-                            <p>
-
-                                We provide a trusted solution to manage overhead costs of handling your business
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-6 col-6 col-mbx-100 mb-lg-0 mb-3">
-                        <div class="item-reason">
-                            <i class="fa fa-check-circle"></i>
-                            <p>
-
-                                Our results are focused on your business goals and values.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-3">
-                        <div class="box-dedicated">
-                            <h4>Dedicated Teams</h4>
-                            <p>
-                                EnvZone will provide you with the opportunity of working with offshore teams dedicated to serving you.
-                            </p>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-4 col-md-6 mb-lg-0 mb-3">
-                        <div class="box-dedicated">
-                            <h4>Pool of Talent</h4>
-                            <p>
-                                We have a pool of partners who have the capability of working with an array of industries and build a team that is tailored to your business needs and has all the tools to give you results.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="col-12">
-                        <a href="#" class="btn btn-white-env">Schedule My Appointment to Learn More <i class="icon-arrow-bottom"></i></a>
-                    </div>
-                </div>
-            </div>
-        </div>
+        <?php require_once "why-business.php";?>
+        <?php require_once "subscribe.php";?>
     </section>
 </main>
