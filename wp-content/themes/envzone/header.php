@@ -114,9 +114,12 @@
                                                     <div class="title-contact">
                                                         It’s cold out there. We would love to invite you for a coffee at our office.
                                                     </div>
-                                                    <?php
-                                                    echo do_shortcode( '[gravityform id="1" title="true" description="true"]' );
-                                                    ?>
+
+                                                    <form class="text-center">
+                                                        <input type="email" name="email" placeholder="Enter your email address">
+                                                        <textarea placeholder="Your Message" rows="4"></textarea>
+                                                        <a class="btn btn-green-env m-auto btn-send-message" href="#">SEND YOUR MESSAGE</a>
+                                                    </form>
                                                 </div>
                                             </div>
 
